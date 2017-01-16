@@ -1,0 +1,132 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+
+
+#content {
+  height: 100%;
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url("../img/background.jpg");
+  background-color: #aaa;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content::before {
+  display: block;
+  content: "";
+  height: 5%;
+}
+
+#content::after {
+  display: block;
+  content: "";
+  height: 5%;
+}
+
+
+
+#infoContent {
+  float:left;
+  width: 67.5%;
+  height: 90%;
+  padding-left: 2%;
+  padding-right: 2%;
+  vertical-align: middle;
+  /*background-color: red;*/
+}
+
+#infoContent::before {
+  display: block;
+  content: "";
+  height: 2%;
+}
+
+#infoContent::after {
+  display: block;
+  content: "";
+  height: 2%;
+}
+
+
+
+#socialContent {
+  float: right;
+  width: 22.5%;
+  height: 90%;
+  padding-left: 2%;
+  padding-right: 2%;
+  vertical-align: middle;
+  /*background-color: green;*/
+}
+
+#socialContent::before {
+  display: block;
+  content: "";
+  height: 2%;
+}
+
+#socialContent::after {
+  display: block;
+  content: "";
+  height: 2%;
+}
+
+
+
+#pdfWidget{
+  display: block;
+  width: 100%;
+  height: 81%;
+  opacity: 0.95;
+  /*background-color: orange;*/
+}
+
+#twitterWidget {
+  display: block;
+  width: 100%;
+  height: 47%;
+  /*background-color: white;*/
+}
+
+#facebookWidget {
+  display: block;
+  width: 100%;
+  height: 47%;
+  /*background-color: white;*/
+}
+
+.margin {
+  height: 2%;
+}
+
+#twitterWidget > .twitter-timeline {
+  height: 100% !important;
+  width: 100% !important;
+  opacity: 0.95;
+}
+
+#facebookWidget > iframe {
+  height: 100% !important;
+  width: 100% !important;
+  border: none;
+  overflow: hidden;
+  opacity: 0.95;
+}
+
+#bandeau {
+  height: 15%;
+  margin: 0px;
+  width: 100%;
+  opacity: 0.90;
+}
+
+.clock {
+  height: 100%;
+  margin: 0px;
+}
