@@ -1,0 +1,28 @@
+{
+  "name": "sosi_raspberry-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard (horloge + pdf dans carousel) pour raspberry pi - Projet INSA SOSI 2016",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacBootglass/sosi_raspberry-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MacBootglass/sosi_raspberry-dashboard/issues"
+  },
+  "homepage": "https://github.com/MacBootglass/sosi_raspberry-dashboard#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "flipclock": "^0.7.8",
+    "jquery": "^3.1.1",
+    "pdfjs": "^1.0.0-alpha.5"
+  }
+}
